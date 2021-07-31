@@ -1,0 +1,52 @@
+.logo {
+	width: 100px;
+}
+.d-flex {
+	display: flex;
+}
+
+.div-header {
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	align-items: center;
+	height: 125px;
+}
+
+ul li {
+	list-style: none;
+}
+
+ul {
+	width: 100%;
+	justify-content: space-evenly;
+}
+
+.width-30 {
+	width: 30%;
+}
+
+.justify-center {
+	justify-content: center;
+}
+
+.search-input {
+	border: none;
+	border-bottom: solid black 1px;
+}
+
+.search-div {
+	align-items: baseline;
+}
+
+.flex-column {
+	flex-direction: column;
+}
+
+.categories-bar {
+	background-color: black;
+}
+
+.ligth {
+	color: white;
+}
