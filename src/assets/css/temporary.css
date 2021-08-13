@@ -1,0 +1,131 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.logo {
+	width: 100px;
+}
+
+.ulCategories {
+	justify-content: space-evenly;
+	width: 100%;
+}
+
+.dFlex {
+	display: flex;
+}
+
+.imgSizeLg {
+	width: 80%;
+}
+
+.flexEnd {
+	justify-content: flex-end;
+}
+
+.flexStart {
+	justify-content: flex-start;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.footerDiv {
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	border-top: solid 12px;
+	padding-top: 15px;
+}
+
+.paddingRigth15 {
+	padding-right: 15px;
+}
+
+.ulNets {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.divHeader {
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	align-items: center;
+	height: 125px;
+}
+
+.liFooter {
+	width: 10%;
+}
+
+ul li {
+	list-style: none;
+}
+
+.ulIcons {
+	width: 100%;
+	justify-content: space-evenly;
+}
+
+.width30 {
+	width: 30%;
+}
+
+.productsDiv {
+	margin: 25px;
+	flex-wrap: wrap;
+}
+
+.productCardDiv {
+	padding: 10px;
+	border: solid 5px;
+	border-radius: 10px;
+	width: 25%;
+	margin: 10px;
+	text-align: center;
+}
+
+.width100 {
+	width: 100%;
+}
+
+.buyButton {
+	background-color: black;
+	border: none;
+	border-radius: 5px;
+	color: white;
+}
+
+.justifyCenter {
+	justify-content: center;
+}
+
+.searchInput {
+	border: none;
+	border-bottom: solid black 1px;
+}
+
+.searchDiv {
+	align-items: baseline;
+}
+
+.flexColumn {
+	flex-direction: column;
+}
+
+.categoriesBar {
+	background-color: black;
+}
+
+.ligth {
+	color: white;
+}
+
+.spaceEvenly {
+	justify-content: space-evenly;
+}

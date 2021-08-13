@@ -1,10 +1,13 @@
-import Header from "./components/Header";
-import "./assets/css/App.css";
+import { NavBar } from "./components/NavBar/NavBar";
+import { ItemListContainer } from "./components/Container/ItemListContainer";
+import { Footer } from "./components/Footer";
 
 function App() {
 	return (
 		<div className="App">
-			<Header></Header>
+			<NavBar />
+			<ItemListContainer />
+			<Footer />
 		</div>
 	);
 }
