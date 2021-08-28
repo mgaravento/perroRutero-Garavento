@@ -16,12 +16,12 @@ export const NavBar = () => {
 			</div>
 			<CategoriesBar
 				categories={[
-					"TRANSPORTE",
-					"PASEO",
-					"JUGUETES",
-					"HIGIENE",
-					"ALIMENTO",
-					"ROPA",
+					"Transporte",
+					"Paseo",
+					"Juguetes",
+					"Higiene",
+					"Alimento",
+					"Ropa",
 				]}
 			/>
 		</header>

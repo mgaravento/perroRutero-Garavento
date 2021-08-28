@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../../assets/css/temporary.css";
 //import "font-awesome/css/font-awesome.css";
 
@@ -8,13 +9,13 @@ export const Item = ({ ...prod }) => {
 			<img src={prod.img} alt="imagen de producto" className="imgSizeLg"></img>
 			<p>{prod.name}</p>
 			<p>{prod.price}</p>
-			<p>{prod.description}</p>
 
 			<div className="dFlex flexEnd">
-				<i className="fa fa-heart paddingRigth15"></i>
-				<button type="submit" className="buyButton">
-					Comprar
-				</button>
+				<Link to={`/detail/${prod.id}`}>
+					<button type="submit" className="buyButton">
+						Detalles
+					</button>
+				</Link>
 			</div>
 		</div>
 	);
